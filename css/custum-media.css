@@ -1,0 +1,1056 @@
+/* 
+
+====================================
+================Media query=========
+==================================== */
+
+
+/* sm */
+@media (min-width:640px) {
+
+    /* ========= home start ========== */
+
+    .homeContain .imgH1 {
+        padding: 7% 9%;
+    }
+
+    .secondSec p {
+
+        padding: 2% 0;
+        line-height: 27px;
+    }
+
+
+
+
+    .secondSec .btns .bt2 i {
+
+        left: 4%;
+        top: 23%;
+    }
+
+    .btns .bt2 .icon::before {
+        left: 0%;
+        top: 15%;
+    }
+
+    .secondSec .btns {
+        margin: 4% auto;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .secondSec .bt1 {
+        padding: 2% 4%;
+
+    }
+
+    /* ========= home end ========== */
+
+    /* ========= Chefs start ========== */
+    /* 
+    .chefs-container {
+        margin-top: 14%;
+    }
+
+    .chefs-1 {
+        margin: 0 5%;
+
+    }
+
+    .chef-inner {
+        padding: 1rem 1.5625rem 2rem 1.5625rem;
+    }
+
+
+    .CHEFS-info .chefs-1 .img-div:after {
+
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 10%;
+    }
+
+
+    .CHEFS-info {
+
+        gap: 25px;
+    } */
+
+    /* ========= Chefs end ========== */
+
+    /* ===== gallery start =====  */
+
+    .container {
+        padding: 5% 0 17% 0;
+    }
+
+    .Gallery-container {
+        padding-left: 9%;
+        padding-right: 9%;
+        padding-top: 13%;
+        padding-bottom: 0%;
+
+    }
+
+    /* ===== gallery end =====  */
+    /* ===== contactus end =====  */
+
+    .CONTACT-container {
+        padding-top: 14%;
+    }
+
+    .contact-content {
+        margin-left: 9%;
+        margin-right: 9%;
+
+    }
+
+    .lastbtn {
+
+        width: 38%;
+
+    }
+
+    /* ===== contactus end =====  */
+
+    /* ======start footer======= */
+    .footer-p2 form .input5 {
+        width: 80%;
+
+    }
+
+
+    .footer-p2 form button {
+        width: 20%;
+        padding-left: 0;
+    }
+
+    /* =====end footer===== */
+
+}
+
+
+/* md */
+@media (min-width:768px) {
+    /* 769 */
+    /* ========= nav start ========== */
+
+    .btns .bt2 .icon::before {
+
+        left: 0%;
+        top: 13%;
+
+    }
+
+
+
+
+    #box1:target {
+        left: 50%;
+
+    }
+
+
+    /* ========= nav end ========== */
+
+    /* ========= home start ========== */
+
+    .homeContain .imgH1 {
+        padding: 7% 2%;
+
+    }
+
+    .secondSec .btns {
+        width: 60%;
+    }
+
+    .secondSec .bt1 {
+        padding: 2% 5%;
+    }
+
+    .secondSec .bt2 {
+        left: 15%;
+    }
+
+    .secondSec .bt2 i {
+        left: -6%;
+        top: 15%;
+    }
+
+    .icon::before {
+        left: -10%;
+        top: 5%;
+    }
+
+    /* ========= home end ========== */
+    /* ========= Chefs start ========== */
+
+    /* 
+    التاسك التغير عند 769
+    كأنها @media (min-width:769px) */
+
+    .CHEFS-info {
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
+
+    /* ========= Chefs end ========== */
+
+    /* ===== gallery start ===== */
+    .container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem 1rem;
+        grid-template-areas:
+            "Pizza Beefsteaks"
+            "Burger Beefsteaks"
+            "Levitationpizza Beefsteaks"
+            "Levitationpizza CrispyFriedChicken"
+            "Levitationpizza Lyulyakebab"
+            "Frittata Lyulyakebab"
+            "Frittata .";
+    }
+
+
+    .Gallery-container {
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 15%;
+        padding-bottom: 0%;
+
+    }
+
+    /* ===== gallery end ===== */
+
+    /* ===== contactus start ===== */
+    .contact-content {
+        margin-left: 4%;
+        margin-right: 4%;
+
+    }
+
+
+    .contact-infos {
+
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 15px 15px;
+    }
+
+
+    .lastbtn {
+        padding: 2.5% 0%;
+        width: 28%;
+    }
+
+
+    /* ===== contactus end ===== */
+
+
+    /* =====start footer===== */
+
+
+    footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 5%;
+        gap: 0px 0px;
+        padding-bottom: 5%;
+
+    }
+
+
+    .footer-p2 form {
+        margin-top: 3%;
+    }
+
+    .footer-head {
+
+        padding-top: 2%;
+
+    }
+
+    .footer-p1 {
+        order: 0;
+        width: 50%;
+    }
+
+    .footer-p3 {
+        order: 1;
+        width: 50%;
+
+    }
+
+    .footer-p2 {
+        order: 2;
+    }
+
+
+    .footer-p2 span {
+
+        padding-top: 3.5%;
+        padding-bottom: 2%;
+    }
+
+
+    .footer-p2 form {
+        display: flex;
+        flex-direction: row;
+        gap: 0 0px;
+    }
+
+
+    .footer-p2 form {
+
+        gap: 5px;
+    }
+
+    .footer-p2 form .input5 {
+        width: 80%;
+
+    }
+
+
+    .footer-p2 form button {
+        width: 20%;
+        padding-left: 0;
+    }
+
+
+    /* =====end footer===== */
+
+
+
+}
+
+
+/* lg */
+@media (min-width:1024px) {
+
+
+    /* ========= nav start ========== */
+
+    .btns .icon::before {
+
+        left: -19%;
+        top: -10%;
+
+    }
+
+
+
+
+
+    #box1:target {
+        left: 65%;
+
+    }
+
+
+    /* ========= nav end ========== */
+
+    /* ========= home start ========== */
+
+    .homeContain {
+        flex-direction: row-reverse;
+        padding-bottom: 0%;
+
+    }
+
+    .homeContain .imgH1 {
+        padding: 5% 3%;
+
+    }
+
+    .homeContain .imgH1 img {
+        width: 100%;
+    }
+
+    .secondSec {
+        align-items: flex-start;
+        padding-left: 2%;
+    }
+
+    .secondSec h1 {
+
+        text-align: left;
+    }
+
+    .secondSec p {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .secondSec .btns {
+        margin: 4% 0%;
+
+
+    }
+
+    .secondSec .bt1 {
+        padding: 4% 6%;
+        border-radius: 0 50px 50px 50px;
+    }
+
+    .secondSec .bt2 {
+
+        left: 20%;
+    }
+
+    .secondSec .bt2 i {
+        left: -14%;
+        top: 5%;
+    }
+
+    .icon::before {
+        left: -19%;
+        top: -8%;
+    }
+
+
+
+
+
+
+
+
+    .btns .bt2 .icon::before {
+
+        left: -18%;
+        top: -12%;
+
+    }
+
+
+
+
+    .secondSec .btns .bt2 i {
+
+        left: -13%;
+        top: 2%;
+    }
+
+
+
+
+    .secondSec .btns .bt2 {
+
+        left: 17%;
+
+    }
+
+    /* ========= home end ========== */
+    /* ========= Chefs start ========== */
+
+    .CHEFS-info {
+        gap: 30px;
+        padding: 2% 2% 8% 2%;
+    }
+
+    .chefs-container {
+        margin-top: 9%;
+    }
+
+    .chef-inner {
+        padding: 0.625rem 1.7rem 1.56rem 1.7rem;
+    }
+
+    .chefs-1:hover ul {
+        left: 81%;
+    }
+
+    .chefs-container {
+        margin-bottom: 0%;
+    }
+
+    /* ========= Chefs end ========== */
+
+    /* ===== gallery start ===== */
+
+
+
+    .container {
+        padding: 3% 0 3% 0;
+        gap: 1.2rem 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "Pizza Beefsteaks Burger"
+            "Pizza Beefsteaks Burger"
+            "Pizza Beefsteaks Burger"
+            "Levitationpizza Beefsteaks CrispyFriedChicken"
+            "Levitationpizza Beefsteaks CrispyFriedChicken"
+            "Levitationpizza Beefsteaks CrispyFriedChicken"
+            "Levitationpizza Beefsteaks Lyulyakebab"
+            "Levitationpizza Frittata Lyulyakebab"
+            "Levitationpizza Frittata Lyulyakebab"
+            ". Frittata Lyulyakebab"
+            ". Frittata .";
+    }
+
+
+    .Gallery-container {
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 10%;
+        padding-bottom: 8%;
+
+    }
+
+
+    /* ===== gallery end ===== */
+
+
+    /* ===== contact us start ===== */
+    .CONTACT-container {
+        padding-top: 9%;
+    }
+
+    .form-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2%;
+    }
+
+
+    .bannar {
+
+        padding: 2.5%;
+
+    }
+
+    .lastbtn {
+        padding: 1.5% 2.5%;
+        width: 18%;
+
+    }
+
+
+    form textarea {
+
+        margin-bottom: 4%;
+
+    }
+
+
+    /* ===== contact us end ===== */
+
+
+    /* =====strat footer===== */
+
+    footer {
+        margin-top: 9%;
+
+    }
+
+    footer {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+
+
+
+    .footer-p2 form {
+        margin-top: 2%;
+    }
+
+    .footer-p2 form .input5 {
+        width: 100%;
+
+
+    }
+
+    .footer-p2 form button {
+        width: 13%;
+
+    }
+
+    /* =====end footer===== */
+
+
+}
+
+
+/* xl */
+@media (min-width:1200px) {
+    /* الموقع الى فى الاسيمنت لحد 1201 مش 1280 */
+
+
+
+
+
+    /* ========= home start ========== */
+
+
+
+    .btns .bt2 .icon::before {
+
+        left: -9%;
+        top: -8%;
+
+    }
+
+
+
+    .secondSec .btns .bt2 i {
+
+        left: -5%;
+        top: 5%;
+    }
+
+
+    .secondSec .btns .bt2 {
+
+        left: 17%;
+
+    }
+
+
+    /* ========= home end ========== */
+
+
+    /* ===== start navbar ===== */
+
+    .navbar .light {
+        padding-right: 1%;
+    }
+
+    .navbar .light {
+        order: 3;
+        flex-grow: 0;
+    }
+
+    .navbar .items-menu {
+        order: 2;
+    }
+
+    .items-menu {
+        flex-grow: 1;
+    }
+
+
+    .items-menu a i {
+        display: none;
+    }
+
+
+    .items-menu .ul2 {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        list-style: none;
+        justify-content: center;
+        column-gap: 4%;
+        position: relative;
+
+    }
+
+
+    .items-menu .ul2 li {
+
+        position: relative;
+        padding: 8px 0 8px 0;
+    }
+
+    .items-menu .ul2 li a {
+        font-family: "segoe-Semibold", sans-serif;
+        font-size: 1.0625rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: #7f7f90;
+        transition: color 0.5s ease;
+    }
+
+    .items-menu .ul2 li {
+        overflow: hidden;
+    }
+
+
+    .items-menu .ul2 li a:hover {
+        color: var(--color-default);
+    }
+
+
+    /* 
+    resorce:
+    https://www.youtube.com/watch?v=aGJQiPppuig
+     */
+
+    .items-menu .ul2 li a::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: -100%;
+        bottom: 0;
+        background-color: var(--color-primary);
+        transition: left 0.3s ease;
+    }
+
+    .items-menu .ul2 li:hover a::before {
+        left: 0;
+
+    }
+
+    body:not(:has(:target)) .items-menu .ul2 li a[href="#home"]::before,
+    body:has(#home:target) .items-menu .ul2 li a[href="#home"]::before,
+    body:has(#Chefs:target) .items-menu .ul2 li a[href="#Chefs"]::before,
+    body:has(#Gallery:target) .items-menu .ul2 li a[href="#Gallery"]::before,
+    body:has(#Contact:target) .items-menu .ul2 li a[href="#Contact"]::before {
+        left: 0;
+    }
+
+    body:not(:has(:target)) .items-menu .ul2 li a[href="#home"],
+    body:has(#home:target) .items-menu .ul2 li a[href="#home"],
+    body:has(#Chefs:target) .items-menu .ul2 li a[href="#Chefs"],
+    body:has(#Gallery:target) .items-menu .ul2 li a[href="#Gallery"],
+    body:has(#Contact:target) .items-menu .ul2 li a[href="#Contact"] {
+        color: var(--color-default);
+    }
+
+
+    /* ===== end navbar ===== */
+
+
+    /* ===== start home ===== */
+
+    .homeContain {
+
+        padding-bottom: 0%;
+
+    }
+
+    .homeContain .imgH1 {
+        padding: 3% 2% 2% 2%;
+    }
+
+    .homeContain .imgH1 img {
+        width: 92%;
+    }
+
+    .secondSec p {
+
+        padding: 5% 19% 5% 0%;
+    }
+
+    /* ===== end home ===== */
+
+    /* ========= Chefs start ========== */
+
+    .CHEFS-info {
+
+        padding: 2% 3% 8% 3%;
+
+
+    }
+
+    /* ========= Chefs end ========== */
+    /* ========= gallery start ========== */
+
+
+    .Gallery-container {
+        padding-left: 1.9%;
+        padding-right: 1.9%;
+
+
+    }
+
+
+
+    .container {
+        padding: 3% 0 1% 0;
+
+    }
+
+    /* ========= gallery end ========== */
+
+
+    /* =====strat footer===== */
+    footer {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .footer-p1 {
+        order: 0;
+        width: 25%;
+    }
+
+    .footer-p3 {
+        order: 2;
+        width: 25%;
+
+    }
+
+    .footer-p2 {
+        order: 1;
+        width: 50%;
+
+    }
+
+
+    .footer-p2 {
+        padding-left: 1%;
+        padding-right: 1%;
+
+    }
+
+
+    .footer-p1 {
+        padding-right: 1%;
+        padding-left: 1%;
+
+    }
+
+    .footer-p3 {
+        padding-left: 1%;
+        padding-right: 1%;
+
+    }
+
+
+
+
+
+    .footer-p2 form button {
+        width: 23%;
+
+    }
+
+
+    /* =====end footer===== */
+
+
+
+
+}
+
+
+
+
+
+/* my laptop 14inch breakpoint */
+@media (min-width:1366px) {
+
+
+/* ======nav bar========== */
+
+
+.navbar {
+
+    padding: 25px 7%;
+
+}
+
+
+
+
+
+    /* ========= home start ========== */
+
+
+
+    .btns .bt2 .icon::before {
+
+        left: -13%;
+        top: -3%;
+
+    }
+
+
+    .secondSec .btns .bt2 i {
+
+        left: -9%;
+        top: 9%;
+    }
+
+
+    .secondSec .btns .bt2 {
+
+        left: 17%;
+
+    }
+
+
+    .secondSec p {
+
+        padding: 3% 9%;
+        
+    }
+
+
+    
+.secondSec h1 {
+padding-left: 9%;
+
+}
+
+
+
+.secondSec .btns {
+    margin: 4% auto 4% 3.8%;
+    text-align: center;
+    width: 100%;
+}
+    /* ========= home end ========== */
+
+    /* =========== shefs start ===========*/
+
+    .chefs-container {
+        margin-top: 7%;
+    }
+
+
+    .CHEFS-info {
+        padding: 8% 5.5%;
+        gap: 25px;
+    }
+
+    /*  ===========shefs end  ===========*/
+
+    /* start galary */
+    .Gallery-container {
+        padding-left: 8.5%;
+        padding-right: 8.5%;
+        padding-top: 7%;
+        padding-bottom: 0%;
+    
+    }
+
+    .container {
+        padding: 2% 0 9% 0;
+
+    }
+
+
+
+/* ==== Contact Us start ==== */
+
+.CONTACT-container {
+    padding-top: 7%;
+}
+
+
+.contact-content {
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+
+.contact-infos {
+    margin-top: 2%;
+}
+
+
+form {
+    margin-top: 3%;
+    
+}
+
+.form-container {
+    padding: 2%;
+
+}
+
+
+
+
+
+
+
+}
+
+
+/* 2xl */
+@media (min-width:1536px) {
+
+    /* ========= nav start ========== */
+
+    .btns .icon::before {
+
+        left: -19%;
+        top: -10%;
+
+    }
+
+    /* ========= nav end ========== */
+
+
+    /* ========= home start ========== */
+
+
+    .secondSec .btns {
+        margin: 4% 0%;
+
+
+    }
+
+    .secondSec .bt1 {
+        padding: 4% 6%;
+        border-radius: 0 50px 50px 50px;
+    }
+
+
+    .secondSec .bt2 {
+
+        left: 20%;
+    }
+
+
+    .secondSec .bt2 i {
+        left: -14%;
+        top: 5%;
+    }
+
+
+    .icon::before {
+        left: -19%;
+        top: -8%;
+    }
+
+    /* ========= home end ========== */
+
+    /* ========= Chefs start ========== */
+
+    .CHEFS-info {
+
+        padding: 2% 6% 8% 6%;
+
+
+    }
+
+    /* ========= Chefs end ========== */
+
+    /* ===== gallery start =====  */
+
+    .Gallery-container {
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+
+    }
+
+    /* ===== gallery end =====  */
+    /* ===== footer start =====  */
+
+    footer {
+
+
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    /* ===== footer end =====  */
+
+
+}
