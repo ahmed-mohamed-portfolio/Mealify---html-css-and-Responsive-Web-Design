@@ -1,19 +1,30 @@
+Peace be upon you
+How are you, heroes? I hope you’re all doing great 💙
 
-السلام عليكم ازيكوا يا ابطال عاملين ايه يارب تكونوا بخير 💙
-المرادي الاسايمنت مش بس هيخلينا نطبق على اللي اخدناه ف المحاضرات بس. لأ، هيكون فيه اجزاء كتير بونس لمهارة ال search (هيتحدد عليها مين اللي هيكون ال best في الجروب 😎😎) 
-المطلوب اننا نعمل زي الويب سايت دا بالظبط و لازم يكون 100% ريسبونسڤ : 
-📌 Demo : https://bit.ly/3ZU6MLn
-قبل ما تبدا في الـ assignment فيه شوية topics المفروض تكون مذاكرها و فيه حجات بسيطة المفروض تعمل search عنها هتلاقيهم في الـ pdf دا : 
-📝 PDF :  https://bit.ly/3PVUXzO
-خلينى اقولك شوية hints كدا يساعدوك ☺ : 
-🔴الـ Navbar : 
-✅ المفروض اول ما تفتح تلاقي الـ home هي الـ active يعني تحتها خط و لونها مختلف و لو ضغط علي اى لينك هيكون هو الـ active ( و هنا هتحتاج تعمل search عن :has  و :target زي ما قلتلك في الـ PDF فوق 👆 ).
-✅ متنساش تعمل الـ dark mode الموجود في الـ navbar. ( محتاج تعمل search عن :checked  ).
-🔴الـ Header : 
-✅ محتاجين نعمل shadow حوالين الصورة الموجودة (search عن الـ drop-shadow filter)
-🔴الـ Gallery : 
-✅ هنعمله زي ما هو بالظبط ( search عن الـ masonry layout ).
-⚠⚠ ال search عموما ي شباب بيبدأ بانك مش عارف اصلا تسيرش عن ايه 😅،. وتروح يمين وشمال لحد متوصل للحل، صدقني المعلومات اللي بتجمعها لحد متوصل للحل هو دا اللي بيخليك  front-end developer جامد جداا 💙
-ومتقلقش كل الحجات اللى المفروض تعمل عنها search هتنزل مع حل الـ assignment علي الدرايف 😉💙
-ال darkmode optional و عليه درجة بونص
-الديد لاين: يوم السبت الساعة 10م
+This time, the assignment won’t just make us apply what we learned in the lectures. No, it will also include a lot of bonus parts for practicing search skills (and based on that, we’ll see who’s the best in the group 😎😎).
+
+The task is to build a website exactly like this one, and it must be 100% responsive:
+📌 Demo: https://bit.ly/3ZU6MLn
+
+Before starting the assignment, there are a few topics you should have studied, and some small things you’ll need to research. You’ll find them in this PDF:
+📝 PDF: https://bit.ly/3PVUXzO
+
+Let me give you some hints to help you ☺:
+
+🔴 Navbar:
+✅ When the page opens, Home should be active (underlined and styled differently). If you click any other link, that link should become active. (Here you’ll need to search about :has and :target as mentioned in the PDF above 👆).
+✅ Don’t forget to add dark mode in the navbar. (You’ll need to search about :checked).
+
+🔴 Header:
+✅ Add a shadow around the image (search about the drop-shadow filter).
+
+🔴 Gallery:
+✅ Recreate it exactly as it is (search about masonry layout).
+
+⚠⚠ In general, searching starts when you don’t even know what to search for 😅. You’ll go here and there until you reach the solution. Trust me, the information you gather along the way is exactly what makes you a really strong front-end developer 💙.
+
+And don’t worry — all the things you need to research will be included later with the solution of the assignment on the drive 😉💙
+
+👉 Dark mode is optional but will give you a bonus point.
+
+Deadline: Saturday at 10 PM
